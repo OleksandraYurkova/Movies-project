@@ -1,11 +1,3 @@
-.container {
-    width: 80%; 
-    max-width: 1200px; 
-    margin: 0 auto; 
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; 
-}
 body {
   background: #121212;
   }
@@ -14,11 +6,11 @@ body {
 width: 100%;
 height: 65px;
 background-color: #007BFF;
-padding-top: 25px;
+top: 25px;
 display: flex;
 align-items: center;
-justify-content: space-between;
-padding: 10px 20px;
+gap: 90px;
+
 }
 .logo{
 font-family: Inter;
@@ -28,17 +20,108 @@ line-height: 100%;
 color: #ffffff;
 padding-top: 18px;
 padding-bottom: 18px;
-margin-left: 100px;
+margin-left: 70px;
 
+}
+
+.arrow{
+  margin-left: -10px;
 }
 .nav{
 font-family: Inter;
 font-weight: 700;
-font-size: 18px;
+font-size: 20px;
 line-height: 100%;
 color: #ffffff;
+display: flex;
 align-items: center;
-gap: 40px;
+gap: 15px;
+left: 130px;
+text-decoration: none;
+}
+.nav:hover{
+  font-size: 24px;
+}
+
+.dropdown-menu{
+  position: relative;
+}
+.dropdown-menu > a{
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+.dropdown_content{
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 18px;
+  position: absolute;
+  width: 1020px;
+  top: 42px;
+  left: -440px;
+  background: #1d3557;
+  color: white;
+  padding: 25px;
+  display: none;
+  grid-template-columns: repeat(4, auto); 
+  gap: 10px;
+  min-width: 250px;
+}
+.dropdown_content > a{
+  color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+}
+.dropdown_content a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.menu{
+  position: relative;
+}
+
+.menu > a{
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 18px;
+  position: absolute;
+  width: 1020px;
+  top: 42px; 
+  left: -260px;
+  background: #1d3557;
+  color: white;
+  padding: 25px;
+  display: none;
+  grid-template-columns: repeat(4, auto); 
+  gap: 10px;
+  min-width: 250px;
+}
+
+.dropdown a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+}
+
+.dropdown a:hover {
+    background: rgba(255, 255, 255, 0.2);
 }
 .button {
       width: 158px;
@@ -485,7 +568,7 @@ gap: 40px;
 /* FOOTER */
 .rec_foot{
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 350px;
   top: 2430px;
   left: 0;
