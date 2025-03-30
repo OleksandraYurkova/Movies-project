@@ -9,8 +9,7 @@ background-color: #007BFF;
 top: 25px;
 display: flex;
 align-items: center;
-gap: 90px;
-
+gap: 80px;
 }
 .logo{
 font-family: Inter;
@@ -21,7 +20,6 @@ color: #ffffff;
 padding-top: 18px;
 padding-bottom: 18px;
 margin-left: 70px;
-
 }
 
 .arrow{
@@ -30,13 +28,12 @@ margin-left: 70px;
 .nav{
 font-family: Inter;
 font-weight: 700;
-font-size: 20px;
+font-size: 16px;
 line-height: 100%;
 color: #ffffff;
 display: flex;
 align-items: center;
 gap: 15px;
-left: 130px;
 text-decoration: none;
 }
 .nav:hover{
@@ -124,8 +121,8 @@ text-decoration: none;
     background: rgba(255, 255, 255, 0.2);
 }
 .button {
-      width: 158px;
-      height: 35px;
+      width: 150px;
+      height: 30px;
       border-radius: 25px;
       border: 2px solid white;
       background-color: #007BFF;
@@ -149,6 +146,7 @@ text-decoration: none;
       line-height: 100%;
       display: flex;
       align-items: center;
+      text-decoration: none;
     }
 
 /* POSTER GROUP */

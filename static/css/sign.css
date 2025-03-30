@@ -1,0 +1,69 @@
+body {
+    background: #121212;
+    background-image: url(/static/images/decorate.svg);
+    height: 1394px;
+}
+.header{
+    width: 100%;
+    height: 65px;
+    background-color: #007BFF;
+    top: 25px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    color: #ffffff;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-left: 600px;
+}
+.sign_up{
+font-family: Inter;
+font-weight: 700;
+font-size: 32px;
+color: #ffffff;
+padding-left: 600px;
+}
+.wel{
+font-family: Inter;
+font-weight: 700;
+font-size: 24px;
+color: #ffffff;
+top: 190px;
+padding-left: 520px;
+}
+.instr ul{
+    list-style: none;
+    padding-left: 0; 
+    margin: 5px 0;
+}
+.instr{
+    padding-top: -20px;
+    padding-left: 368px;
+    font-family: Inter;
+font-weight: 400;
+font-size: 18px;
+color: #ffffff;
+text-align: justify;
+}
+.well{
+    padding-top: -10px;
+    padding-left: 380px;
+    font-family: Inter;
+font-weight: 700;
+font-size: 24px;
+color: #ffffff;
+}
+.form{
+width: 903px;
+height: 565px;
+margin-top: 50px;
+margin-left: 260px;
+border: 5px solid #007BFF;
+border-radius: 25px;
+box-shadow: 0px 4px 4px 0px #00000040;
+}
