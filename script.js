@@ -37,3 +37,28 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
   
+
+  const showLoginButton = document.getElementById('show-login');
+  const loginFormContainer = document.getElementById('login-form-container');
+  const closeLoginButton = document.getElementById('close-login');
+  const mainContent = document.getElementById('main-content');
+  const overlay = document.createElement('div'); // Створюємо затемнення
+  overlay.classList.add('overlay');
+  document.body.appendChild(overlay); // Додаємо затемнення в body
+  
+  // Показати форму входу
+  showLoginButton.addEventListener('click', function(event) {
+      event.preventDefault();
+      loginFormContainer.style.display = 'flex';
+      mainContent.classList.add('blur-background'); // Блюримо контент
+      overlay.style.display = 'block'; // Показуємо затемнення
+  });
+  
+  // Закрити форму входу
+  closeLoginButton.addEventListener('click', function() {
+      loginFormContainer.style.display = 'none';
+      mainContent.classList.remove('blur-background');
+      overlay.style.display = 'none'; // Ховаємо затемнення
+  });
+  
+  
